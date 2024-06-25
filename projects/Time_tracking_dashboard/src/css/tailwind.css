@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+  @apply w-full h-44 flex items-end rounded-[20px] bg-no-repeat bg-right-top md:w-40
+}
+
+.whitetext{
+  @apply text-white opacity-100
+}
+
+@layer base {
+  :root {
+    --primary-light-red-work: 15deg 100% 70%;
+    --primary-soft-blue: 195deg 74% 62%;
+    --primary-light-red-study: 348deg 100% 68%;
+    --primary-lime-green: 145deg 58% 55%;
+    --primary-violet: 264deg 64% 52%;
+    --primary-soft-orange: 43deg 84% 65%;
+    --prymary-blue:246deg 80% 60% ;
+
+    --neutral-very-dark-blue: 226deg 43% 10%;
+    --neutral-dark-blue: 235deg 46% 20%;
+    --neutral-desaturated-blue: 235deg 45% 61%;
+    --neutral-pale-blue: 236deg 100% 87%;
+  }
+}

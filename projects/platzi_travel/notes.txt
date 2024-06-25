@@ -1,0 +1,12 @@
+Breakpoint talwind
+
+Tailwind es mobile first 
+
+Breakpoint mas comun
+    320 - movil - small
+    768 - tablet - medium
+    1280 - pc - large
+
+Tailwind es mobile first
+
+

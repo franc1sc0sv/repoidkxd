@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.open_menu_mobile{
+    @apply translate-x-0 z-50
+}
+.before_bg{
+    @apply before:fixed before:inset-0 before:bg-black before:bg-opacity-40 before:z-0
+}
+.icons{
+    @apply cursor-pointer transition ease-out delay-200
+}

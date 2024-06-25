@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Platzi_Travel</title>
+</head>
+
+<body class="font-Montserrat">
+    <nav class="hidden w-full h-auto justify-between px-9 py-5 bg-white lg:flex">
+        <div class="text_nav" id="namePage">Platzi Travel</div>
+        <div id="links">
+            <ul class="flex space-x-20 text_nav">
+                <li><a href="#recomendations">Locations</a></li>
+                <li><a href="#tredingsStays">Stays</a></li>
+                <li><a href="#FAQS">FAQS</a></li>
+                <li><a href="#footer">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="flex space-x-10" id="icons">
+            <i class="fa-solid fa-magnifying-glass icon_nav"></i>
+            <i class="fa-regular fa-moon icon_nav"></i>
+            <i class="fa-solid fa-user text-xl font-extrabold text-gray-100 cursor-pointer"></i>
+        </div>
+    </nav>
+    <section class="w-full h-screen">
+        <div class=" w-full h-3/4" id="home">
+            <div class="w-full h-full flex flex-col items-center space-y-4 p-4 absolute lg:pt-24 lg:px-10">
+                <div class="lg:hidden  self-end">
+                    <i class="fa-regular fa-moon bg-white text-primary rounded-full py-2 px-6"></i>
+                </div>
+
+                <div class="space-y-72 w-full h-auto items-center flex flex-col lg:items-start lg:space-y-5">
+                    <input type="search" name="test" id="test"
+                        class="outline-none p-3 shadow-sm bg-white py-4 rounded-full transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden"
+                        placeholder="San Francisco">
+                    <div class="hidden lg:flex lg:w-2/5">
+                        <p class="text-black text-3xl font-extrabold">Find More Locations <br> like this</p>
+                    </div>
+                    <button
+                        class="bg-white py-4 w-48 rounded-full font-extrabold font-Montserrat text-primary shadow-sm transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">
+                        Explore More
+                    </button>
+                </div>
+            </div>
+            <div class="w-full h-full bg-sanFrancisco bg-center bg-cover lg:bg-sanFranciscoDesktop "></div>
+        </div>
+
+        <div id="body" class="lg:p-10 px-5 py-10 flex flex-col gap-10">
+            <div id="recomendations">
+                <p class="title">Our Recomendations</p>
+                <div class="w-auto h-72 flex gap-x-5 items-center overflow-x-auto overscroll-x-contain scrollbar-hide">
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-norway"></div>
+                        <div class="card_content bg-secundry">
+                            <p class="text-white text-lg font-extrabold">Norway</p>
+                            <p class="text-white text-sm font-extralight">Beautiful landscapes</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-new_york"></div>
+                        <div class="card_content bg-white">
+                            <p class="text-terciary text-lg font-extrabold">New York</p>
+                            <p class="text-terciary text-sm font-extralight">Concrete jungle</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-norway"></div>
+                        <div class="card_content bg-secundry">
+                            <p class="text-white text-lg font-extrabold">Norway</p>
+                            <p class="text-white text-sm font-extralight">Beautiful landscapes</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-new_york"></div>
+                        <div class="card_content bg-white">
+                            <p class="text-terciary text-lg font-extrabold">New York</p>
+                            <p class="text-terciary text-sm font-extralight">Concrete jungle</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-norway"></div>
+                        <div class="card_content bg-secundry">
+                            <p class="text-white text-lg font-extrabold">Norway</p>
+                            <p class="text-white text-sm font-extralight">Beautiful landscapes</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-new_york"></div>
+                        <div class="card_content bg-white">
+                            <p class="text-terciary text-lg font-extrabold">New York</p>
+                            <p class="text-terciary text-sm font-extralight">Concrete jungle</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-norway"></div>
+                        <div class="card_content bg-secundry">
+                            <p class="text-white text-lg font-extrabold">Norway</p>
+                            <p class="text-white text-sm font-extralight">Beautiful landscapes</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-new_york"></div>
+                        <div class="card_content bg-white">
+                            <p class="text-terciary text-lg font-extrabold">New York</p>
+                            <p class="text-terciary text-sm font-extralight">Concrete jungle</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-norway"></div>
+                        <div class="card_content bg-secundry">
+                            <p class="text-white text-lg font-extrabold">Norway</p>
+                            <p class="text-white text-sm font-extralight">Beautiful landscapes</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-new_york"></div>
+                        <div class="card_content bg-white">
+                            <p class="text-terciary text-lg font-extrabold">New York</p>
+                            <p class="text-terciary text-sm font-extralight">Concrete jungle</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-norway"></div>
+                        <div class="card_content bg-secundry">
+                            <p class="text-white text-lg font-extrabold">Norway</p>
+                            <p class="text-white text-sm font-extralight">Beautiful landscapes</p>
+                        </div>
+                    </div>
+
+                    <div id="card" class="card">
+                        <div class="bg_format bg-new_york"></div>
+                        <div class="card_content bg-white">
+                            <p class="text-terciary text-lg font-extrabold">New York</p>
+                            <p class="text-terciary text-sm font-extralight">Concrete jungle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tredingsStays" class="lg:px-10">
+                <p class="title">Trending Stays</p>
+
+                <div class="w-full h-full flex flex-col gap-5">
+
+                    <div class="w-full space-y-2 px-6 py-10 h-96 bg-chicago bg-cover bg-center rounded-2xl">
+                        <p class="titleRentsCards">Chicago</p>
+                        <p class="descriptionRentsCards">2 rooms, bathroom and kitchen.</p>
+                    </div>
+
+                    <div class="flex flex-col lg:flex-row gap-5">
+
+                        <div
+                            class="w-full space-y-2 px-6 py-10 h-96 bg-LA bg-cover bg-center rounded-2xl lg:w-2/5 lg:h-auto">
+                            <p class="titleRentsCards">Los Angeles</p>
+                            <p class="descriptionRentsCards">4 rooms, 3 bathrooms, kitchen and private pool.</p>
+                        </div>
+
+                        <div class="flex flex-col gap-5 lg:w-3/5">
+                            <div class="w-full px-6 py-10 h-96 bg-miami bg-cover bg-center rounded-2xl">
+                                <p class="titleRentsCards">Miami</p>
+                                <p class="descriptionRentsCards">3 rooms, 2 bathrooms, kitchen and amazing
+                                    sea view.</p>
+                            </div>
+                            <div class="w-full px-6 py-10 h-96 bg-bali bg-cover rounded-2xl">
+                                <p class="titleRentsCards">Bali</p>
+                                <p class="descriptionRentsCards">2 rooms, 2 bathrooms, kitchen and private
+                                    pool.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="FAQS" class="px-10">
+                <p class="text-primary text-5xl font-extrabold"> FAQs</p>
+
+                <p class="titleFAQS">Payment Methods</p>
+                <p class="contentFAQS">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+
+                <p class="titleFAQS">Cancellation Policy</p>
+                <p class="contentFAQS">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+
+                <p class="titleFAQS">Long Stays </p>
+                <p class="contentFAQS">We accept VISA, MasterCard, American Express, Paypal and Binance <br>
+                    We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+
+                <p class="titleFAQS">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+                <p class="contentFAQS">We accept VISA, MasterCard, American Express, Paypal and Binance</p>
+
+
+
+            </div>
+        </div>
+
+        <footer class="w-full h-auto bg-gray-50" id="footer">
+            <div class="p-6">
+                <p class="text-2xl text-gray-300 font-extrabold">About Us</p>
+                <ul class="flex flex-col space-y-2 my-4">
+                    <li class="text-gray-300 font-medium">Investors</li>
+                    <li class="text-gray-300 font-medium">Jobs</li>
+                    <li class="text-gray-300 font-medium">Privacy policy</li>
+                    <li class="text-gray-300 font-medium">Terms and Conditions</li>
+                    <li class="text-gray-300 font-medium">Platzi Travel, inc</li>
+                    <li class="text-gray-300 font-medium">Follow Us </li>
+                </ul>
+
+                <div class="text-2xl text-gray-400">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+
+                </div>
+
+            </div>
+            <div class="w-full h-16 lg:hidden"></div>
+        </footer>
+    </section>
+    <div id="tab_bar"
+        class="fixed bottom-0 left-0 w-full h-16 bg-white flex gap-10 items-center justify-center lg:hidden">
+        <a href="#home"><i class="fa-solid fa-house text-2xl text-gray-200"></i></a>
+        <a href="#tredingsStays"><i class="fa-solid fa-magnifying-glass text-2xl text-red-600"></i></a>
+        <a href="#recomendations"><i class="fa-solid fa-heart text-2xl text-gray-200"></i></a>
+        <a href="#"><i class="fa-solid fa-user text-2xl text-gray-200"></i></a>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8a38724cbe.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

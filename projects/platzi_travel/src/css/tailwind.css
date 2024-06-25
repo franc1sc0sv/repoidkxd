@@ -1,0 +1,46 @@
+@tailwind base;
+/*Inicializa todos los elementos de HTML sin estilo */
+@tailwind components;
+/*Nos permite acceder a todas las clases de tailwind*/
+@tailwind utilities;
+/*Se encarga de agregar las utilidades al proyecto y nos permite accedera ellas*/
+
+.card {
+    @apply w-48 h-64 rounded-lg shadow-lg flex-none transform transition-all ease-in hover:-translate-y-4 hover:shadow-xl
+}
+
+.bg_format {
+    @apply w-full h-3/5 bg-cover rounded-t-lg
+}
+
+.card_content {
+    @apply w-full h-2/5 p-2 flex flex-col justify-start rounded-b-lg
+}
+
+.title {
+    @apply text-primary text-3xl font-extrabold mb-10
+}
+
+.titleRentsCards {
+    @apply text-white text-2xl font-extrabold
+}
+
+.descriptionRentsCards {
+    @apply text-white text-lg font-extralight
+}
+
+.titleFAQS {
+    @apply text-xl text-primary font-medium my-6
+}
+
+.contentFAQS {
+    @apply text-base text-black font-semibold
+}
+
+.text_nav {
+    @apply text-base font-extrabold text-primary cursor-pointer
+}
+
+.icon_nav {
+    @apply text-xl font-extrabold text-primary cursor-pointer
+}
